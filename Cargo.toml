@@ -1,7 +1,12 @@
 [package]
 name = "memset-pattern"
 version = "0.1.0"
+authors = ["Justin de Ruiter <justinderuiter@ziggo.nl>"]
 edition = "2021"
+rust-version = "1.66.1"
+description = "Fill a buffer with a repeated byte pattern"
+repository = "https://github.com/jussyDr/memset-pattern"
+license = "MIT"
 
 [[bench]]
 name = "bench"
